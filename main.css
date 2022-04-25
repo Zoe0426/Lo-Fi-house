@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Serif TC';
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+
+}
+
+.wrap{
+    margin: 0 100px;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+video{
+    width: 30%;
+    display: block;
+    
+}
+
+.pic02{
+    background-color: #f2eeeb;
+    position: relative;
+    /* height: 917px; */
+}
+
+.title02{
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.text02{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    line-height: 200%;
+}
+
+.pic03,
+.pic04,
+.pic05,
+.pic06,
+.pic07{
+    position: relative;
+}
+
+.text03{
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    line-height: 300%;
+    color: #fff;
+}
+
+.title04{
+    width: 70%;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+
+.text04{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    color: #fff;
+}
+
+.text04-2{
+    position: absolute;
+    bottom: 12%;
+    left: 23%;
+    text-align: center;
+    line-height: 200%;
+    color: #fff;
+}
+
+.title05{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 50%;
+    transform: rotate(5deg);
+}
+
+.text05{
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    line-height: 200%;
+    color: #fff;
+}
+
+.text06{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    line-height: 200%;
+    color: #fff;
+}
+
+.text07{
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+    line-height: 200%;
+    color: #fff;
+}
+
+.pic08,
+.pic09{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2eeeb;
+    align-items: center;    
+}
+
+.pic08 img,
+.pic09 img{
+    width: 40%;
+}
+
+.pic08 p,
+.pic09 p{
+    margin-top: 5%;
+}
+
+.text08 span{
+    font-size: 0.8vw;
+}
+
+.text08,
+.text09{
+    padding-left: 5%;
+    line-height: 200%;
+}
+
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0 80px 0;
+}
+
+
+.product a{
+    text-decoration: none;
+    color: #000;
+}
+
+.text span{
+    font-size: 0.8vw;
+    color: darkgray;
+    text-decoration: line-through;
+}
+.product img{
+    width: 300px;
+}
+
+.text{
+    font-size: 1vw;
+}
+
+/* animate */
+.foggy{
+    filter: blur(2px);
+}
+
+.animated{
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 1s;
+}
+
+.slideIn{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.animatedR{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1s;
+}
+
+.slideInR{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.active{
+    opacity: 0;
+    transition: all .5s;
+}
+
+.fadIn{
+    opacity: 1;
+}
